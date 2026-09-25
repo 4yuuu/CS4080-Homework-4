@@ -1,0 +1,9 @@
+// If conditional evaluated to the Tru object, its method evaluates and returns the first function.
+// Its mehod evaluates and returns the second function if the conditional evaluated to the False object.
+// Branching behavior is handled by object-oriented polymorphism, rather than built in parser syntax.
+
+condition.ifTrue(fun() {
+  print "yes";
+}, fun() {
+  print "no";
+});
